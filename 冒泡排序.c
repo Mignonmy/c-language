@@ -1,11 +1,11 @@
-//≈≈–Ú 3 5 0 1 2 9
+//√Ö√Ö√ê√≤ 3 5 0 1 2 9
 #include <stdio.h>
 int main()
 {
 	int number[6]={3,5,0,1,2,9};
 	int i,t,j; 
 	for(i=0;i<5;i++){
-		for(j=0;j<6-i;j++){
+		for(j=0;j<5-i;j++){
 			if(number[j]>number[j+1])
 			{
 				t=number[j];
